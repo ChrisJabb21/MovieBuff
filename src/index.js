@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SearchMovies from "./SearchMovies";
-import 'public/css/style.css';
-import 'public/css/normalize.css';
+import SearchMovies from "./components/SearchMovies";
+import './css/style.css';
+import './css/normalize.css';
 
 //import './index.css';
-import App from './App';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
  <div className="container">
-        <h1 className="title">React Movie Search</h1>
+        <App/>
+        <h1 className="title">Movie Buff 🍿 </h1>
     <SearchMovies/>
 </div>
   </React.StrictMode>,
