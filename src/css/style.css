@@ -1,9 +1,16 @@
 html {
     font-size: 10px;
+    height: 100%;
+    margin-bottom: 0;
 }
 
-* {
-    box-sizing: border-box;
+
+.container {
+    background-image: url(../retrowave.jpg);
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+        width:100%
 }
 
 body {
@@ -13,8 +20,10 @@ body {
     color: #333;
 }
 
-p {
+div {
     font-size: 1.6rem;
+    color:white;
+    
 }
 
 small {
@@ -51,6 +60,7 @@ small {
     margin-bottom: 1rem;
 }
 
+h1, h3{color:white;}
 .button {
     background-color: rgba(0,0,0,0.75);
     color: white;
