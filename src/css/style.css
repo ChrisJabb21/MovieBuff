@@ -1,19 +1,34 @@
+/* Get rid of white spaces on the side. */
+
 html {
     font-size: 10px;
-    height: 100%;
-    margin-bottom: 0;
+    margin:0;
+}
+body{
+    margin:0px;
 }
 
-.card {
+
+.title {
+    font-size: 4.4rem;
+    text-shadow: blueviolet 5px 4px 10px;
     text-align: center;
 }
 
 
 .container {
+    
     background: url(../retrowave.jpg);
     background-attachment: fixed;
     background-position: center; 
     background-repeat: no-repeat;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 40px;
 }
 
 body {
@@ -33,17 +48,6 @@ div {
 
 small {
     font-size: 1.2rem;
-}
-
-.container {
-    margin: 0 auto;
-    max-width:1000px;
-    padding: 40px;
-}
-
-.title {
-    font-size: 4.4rem;
-    text-align: center
 }
 
 .form {
@@ -71,6 +75,7 @@ h1, h3{color:white;}
     color: white;
     padding: 1rem 2rem;
     border: 1px solid rgba(0,0,0,0.75);
+    box-shadow: 10px white;
     border-radius: 20px;
     font-size: 1.4rem;
     cursor: pointer;
@@ -81,7 +86,7 @@ h1, h3{color:white;}
     background-color: rgba(0,0,0,0.85);
 }
 
-@media (min-width:786px){
+@media (min-width:2000px){
     .form {
         grid-template-columns: auto 1fr auto;
         grid-gap: 1rem;
@@ -91,4 +96,36 @@ h1, h3{color:white;}
     .input {
         margin-bottom: 0;
     }
+}
+
+
+.card-list { margin-top: 4rem;}
+
+.card {
+    background: black;
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: grey 5px 4px 10px;
+    box-shadow: purple 1px 1px 10px;
+}
+.card--title {
+    margin-bottom: .5rem;
+}
+
+.card--image {
+    margin: 0 auto;
+    display: block;
+    box-shadow: purple 5px 1px 10px;
+}
+
+.appbar {
+    width: 100%;
+    opacity: 50%;
+  
+} 
+
+.MuiToolbar-regular {
+    min-height: 30px !important;
 }

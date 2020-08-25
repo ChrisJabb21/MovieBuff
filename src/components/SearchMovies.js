@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import MovieCard from "./MovieCard.js";
 
 export default function SearchMovies(){
     
@@ -22,10 +23,10 @@ export default function SearchMovies(){
         try {
             const res = await fetch(url);
             const data  = await res.json();
-            console.log(data.results);
-            setMovies(data.results)
+            setMovies(data.results);
         }catch(err){
             console.error(err);
+
         }
     }
     
@@ -35,24 +36,16 @@ export default function SearchMovies(){
         <form className="form" onSubmit={searchMovies}>
             <label className="label" htmlFor="query">Movie Name</label>
             <input className="input" type="text" name="query"
-                placeholder=" Enter movie to search for (i.e. Jurassic Park, Total Recall)"
+                placeholder=" Enter movie to search for (i.e. Total Recall)"
                 value={query} onChange={(e) => setQuery(e.target.value)}
                 />
             <button className="button" type="submit">Search</button>
         </form>
         <br />
-        {/* Display all of the information from  */}
+        {/* Display list  all of the information from  */}
             <div className="card-list ">
                 {movies.filter(m => m.poster_path).map(m => (
-                    /* Card image */
-                    <div className="card center" key={m.id}>
-                    <img className ="card--image"
-                        src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${m.poster_path}`}
-                        alt={'\n'+ '❌ unable to load' + m.title + ' poster' + '\n' + '\n'} 
-                        />
-
-                {/*  */}
-            </div>
+                    <MovieCard m={m} key={m.id} />
         ))}
         </div>
     </>    

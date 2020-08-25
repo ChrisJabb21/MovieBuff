@@ -6,6 +6,8 @@
   height: 29vmin;
   pointer-events: none;
   border-radius: 13%;
+      box-shadow: purple 1px 1px 10px;
+
 }
 .App-header {
 /*   background-color: #282c34;
@@ -16,4 +18,5 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
