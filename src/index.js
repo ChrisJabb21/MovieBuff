@@ -18,7 +18,6 @@ ReactDOM.render(
 </div>
 <div className="container"></div>
 <div className="container"></div>
-
   </React.StrictMode>,
   document.getElementById('root')
 );

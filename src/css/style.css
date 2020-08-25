@@ -4,13 +4,16 @@ html {
     margin-bottom: 0;
 }
 
+.card {
+    text-align: center;
+}
+
 
 .container {
-    background-image: url(../retrowave.jpg);
+    background: url(../retrowave.jpg);
     background-attachment: fixed;
     background-position: center; 
     background-repeat: no-repeat;
-        width:100%
 }
 
 body {
@@ -25,6 +28,8 @@ div {
     color:white;
     
 }
+
+
 
 small {
     font-size: 1.2rem;
