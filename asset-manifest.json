@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MovieBuff/static/css/main.f20db94b.chunk.css",
+    "main.js": "/MovieBuff/static/js/main.3c550c3c.chunk.js",
+    "main.js.map": "/MovieBuff/static/js/main.3c550c3c.chunk.js.map",
+    "runtime-main.js": "/MovieBuff/static/js/runtime-main.30193210.js",
+    "runtime-main.js.map": "/MovieBuff/static/js/runtime-main.30193210.js.map",
+    "static/js/2.312d2922.chunk.js": "/MovieBuff/static/js/2.312d2922.chunk.js",
+    "static/js/2.312d2922.chunk.js.map": "/MovieBuff/static/js/2.312d2922.chunk.js.map",
+    "index.html": "/MovieBuff/index.html",
+    "precache-manifest.a92b43bd7a6e3d61f75d12fd5eec1d2e.js": "/MovieBuff/precache-manifest.a92b43bd7a6e3d61f75d12fd5eec1d2e.js",
+    "service-worker.js": "/MovieBuff/service-worker.js",
+    "static/css/main.f20db94b.chunk.css.map": "/MovieBuff/static/css/main.f20db94b.chunk.css.map",
+    "static/js/2.312d2922.chunk.js.LICENSE.txt": "/MovieBuff/static/js/2.312d2922.chunk.js.LICENSE.txt",
+    "static/media/arnold.jpg": "/MovieBuff/static/media/arnold.ee2a0d53.jpg",
+    "static/media/style.css": "/MovieBuff/static/media/retrowave.a9d340c3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30193210.js",
+    "static/js/2.312d2922.chunk.js",
+    "static/css/main.f20db94b.chunk.css",
+    "static/js/main.3c550c3c.chunk.js"
+  ]
+}
