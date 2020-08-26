@@ -1,3 +1,14 @@
+Movie search responsive web app made with React and Material UI that retrieves matching movies based on a search query through third party api that contains a wide variety of international and American based movies.
+
+## Showcase 
+![Search page and header](https://github.com/ChrisJabb21/MovieBuff/blob/master/public/images/2020-08-25%2017_31_40-.png?raw=true)
+
+![example of result fetched from query request to api key](https://raw.githubusercontent.com/ChrisJabb21/MovieBuff/master/public/images/2020-08-25%2017_33_01-.png)
+
+
+
+Documentation for TMDB API can be found [here](https://developers.themoviedb.org/3/getting-started/introduction)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
