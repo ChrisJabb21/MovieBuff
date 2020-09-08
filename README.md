@@ -1,4 +1,4 @@
-Movie search responsive web app made with React and Material UI that retrieves matching movies using the TMDB third party api. Contains a wide variety of international and American based movies.
+Movie search responsive web app made with React and Material UI that retrieves matching movies using the TMDB api. Contains a wide variety of international and American based movies.
 
 ## Showcase 
 ![Search page and header](https://github.com/ChrisJabb21/MovieBuff/blob/master/public/images/2020-08-25%2017_31_40-.png?raw=true)
