@@ -18,7 +18,7 @@ export default function SearchMovies(){
         console.log("submitting");
         
         //Add your TMDB api key here
-        const url = `https://api.themoviedb.org/3/search/movie?api_key=f84469b32572db997cc3c78f8dc5a2f1&language=en-US&query=${query}&page=1&include_adult=false`;
+       // const url = `add api key here`;
         
         try {
             const res = await fetch(url);
